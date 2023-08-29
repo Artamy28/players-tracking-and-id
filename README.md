@@ -19,5 +19,3 @@ Player Detection, Court Detection and Tracking, Team Classification and Player I
 
 # Player Tracking
 ![Screenshot_305](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/e9717739-660c-453f-988a-deab8bf586fb)
-
-
