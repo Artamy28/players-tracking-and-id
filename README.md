@@ -1,5 +1,6 @@
 # Identifying and Tracking Basketball Players
 **_Images might take some time to load_**  
+**_Models and weights were not uploaded because the files were too large_**  
 The project can be divided into four sections:  
 Player Detection, Court Detection and Tracking, Team Classification and Player Identification, and Player Tracking
   
