@@ -6,7 +6,7 @@ Player Detection, Court Detection and Tracking, Team Classification and Player I
 
 # Player Detection
 ![player_detection](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/69ee1980-7b5e-4d54-b14c-fd1a890a3824)
-insert video
+![finaldetect](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/c213874d-3f3c-45b3-b6f9-ae9a064b0cd0)
 
 # Court Detection and Tracking
 ![court_detection_1](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/2afbe5ca-3417-45e6-81a0-1368b6f6fc80)
@@ -22,3 +22,4 @@ insert video
 
 # Final Result
 insert video
+
