@@ -6,20 +6,16 @@ Player Detection, Court Detection and Tracking, Team Classification and Player I
 
 # Player Detection
 ![player_detection](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/69ee1980-7b5e-4d54-b14c-fd1a890a3824)
-![finaldetect](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/c213874d-3f3c-45b3-b6f9-ae9a064b0cd0)
 
 # Court Detection and Tracking
 ![court_detection_1](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/2afbe5ca-3417-45e6-81a0-1368b6f6fc80)
 ![court_detection_2](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/381405e3-9b53-407a-a019-305e892dd2e2)
-insert video
 
 # Team Classification and Player Identification
-insert video1
-insert video2
+![Screenshot_304](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/3b0eaf40-017a-4c78-bbbe-103245e0e748)
+![frame193](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/547398ca-1f36-4056-b1f4-4da99ab90c12)
 
 # Player Tracking
-insert video
+![Screenshot_305](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/a414d6c3-37eb-492c-9848-0aad0943f83a)
 
-# Final Result
-insert video
 
