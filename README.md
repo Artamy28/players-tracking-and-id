@@ -35,7 +35,7 @@ So every image is represented by a 30-dimensional feature vector, where each dim
 
 ## Player Tracking
 Player tracking was achieved using DeepSORT, an extension to SORT which is an object-tracking algorithm which uses the method of tracking by detection. This means that objects are detected first and then assigned to tracks.  
-On top of this, DEEPSORT introduces a distance metric called the appearance feature vector, which computes the appearance of the object. 
+On top of this, DEEPSORT introduces a distance metric called the appearance feature vector, which computes the appearance of the object.  
 A convolutional neural network classifier is trained, and the final classification layer is removed.  
 This leaves us with a dense layer that produces a single feature vector waiting to be classified.  
 
