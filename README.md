@@ -4,6 +4,7 @@
 The project can be divided into four sections:  
 Player Detection, Court Detection and Tracking, Team Classification and Player Identification, and Player Tracking
 
+# Project Output
 ![bestoutput](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/f56a4cf9-9848-4e91-b6a5-208815d5ec1a)
 
 # Player Detection
