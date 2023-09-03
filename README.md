@@ -30,7 +30,19 @@ Team classification is performed because it greatly simplifies player identifica
 Since players in the same team wear uniforms of the same colour, we use RGB colour histograms to characterize them. So for every image, a 10-bin colour histogram for each of the three RGB channels is computed, resulting in a 30-bin colour histogram.  
 So every image is represented by a 30-dimensional feature vector, where each dimension is a positive value. These are then used to train a logistic regression classifier.  
 
-![Screenshot_304](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/02ac86c4-a1a9-46f0-b3c7-6091e6e0d896)
+![Screenshot_304](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/02ac86c4-a1a9-46f0-b3c7-6091e6e0d896)  
+
+For player identification, some experimentation was done to decide on which features to use to characterize the images.  
+Trained identification models performed best when representing images using a combination of MSER, SIFT, and RGB features.  
+
+MSER stands for maximally stable extremal regions, they are regions of an image which stay the same through the use of a wide range of thresholds. The MSER representation of an image is a 300-dimensional binary vector.  
+SIFT stands for scale-invariant feature transform, and are particular points of an object that are invariant to image scale and rotation. They are also robust to changes in illumination, noise, and minor changes in viewpoint, making them excellent features to extract. The SIFT representation of an image is a 500-dimensional binary vector.  
+RGB features were represented in the same way as before, with a 30-dimensional vector.  
+
+All these vectors are combined to form an 830-dimensional feature vector, where the first 800 dimensions are binary, and the last 30 dimensions contain positive values.  
+These were used to train two logistic regression classifiers, one for each team.  
+The classifiers take an image’s feature vector as input and outputs the predicted player identity, which is then used to annotate bounding boxes accordingly.  
+
 ![frame193](https://github.com/Artamy28/players-tracking-and-id/assets/48444519/9363a24a-4385-4133-afbb-825b03bb153d)
 
 ## Player Tracking
